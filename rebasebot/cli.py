@@ -143,7 +143,7 @@ def _parse_cli_arguments():
         type=int,
         required=False,
         help="The app ID of the GitHub app to use.",
-        default=137509,
+        default=118774,
     )
     parser.add_argument(
         "--github-app-key",
@@ -156,7 +156,7 @@ def _parse_cli_arguments():
         type=int,
         required=False,
         help="The app ID of the GitHub cloner app to use.",
-        default=137497,
+        default=121614,
     )
     parser.add_argument(
         "--github-cloner-key",
