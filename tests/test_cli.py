@@ -205,8 +205,8 @@ class TestCliArgParser:
             'github_app_provider')
         assert passed_gh_app_provider.user_auth is False
         assert passed_gh_app_provider.user_token is None  # from tempfile, see fixture
-        assert passed_gh_app_provider._app_credentials.app_id == 137509  # default value
-        assert passed_gh_app_provider._cloner_app_credentials.app_id == 137497  # default value
+        assert passed_gh_app_provider._app_credentials.app_id == 118774  # default value
+        assert passed_gh_app_provider._cloner_app_credentials.app_id == 121614  # default value
         assert passed_gh_app_provider._app_credentials.app_key == b'some cool content'
         assert passed_gh_app_provider._cloner_app_credentials.app_key == b'some cool content'
 

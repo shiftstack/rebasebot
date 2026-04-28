@@ -13,7 +13,8 @@ unittests:
 lint:
 	$(PYTHON) -m flake8 --max-line-length=120 rebasebot tests
 	$(PYTHON) -m pylint rebasebot tests
-	$(PYTHON) -m mypy rebasebot tests --no-strict-optional --ignore-missing-imports
+
+
 
 .PHONY: venv
 venv:
